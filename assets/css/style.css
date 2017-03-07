@@ -1,0 +1,122 @@
+body {
+	background-color: beige;
+	font-family: 'Poppins', sans-serif;
+	/*font-family: 'Indie Flower', cursive;*/
+	background-image: url("../img/moving_lights.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+main {
+	min-height: 430px;
+}
+
+.aligncenter {
+	text-align: center; 
+}
+
+header {
+	height: 70px;
+}
+	header a {
+			color: orange;
+			text-align: center;
+			line-height: 70px;
+		}
+			header a:hover {
+				color: crimson;
+
+		}
+
+section.update {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    box-shadow: 0px 1px 8px black;
+    text-align: center;
+    width: 290px;
+    padding: 40px 0;
+    border-radius: 7px;
+    margin: 0 auto 20px;
+}
+
+
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-top: 1px solid white;
+	height: 70px;
+	line-height: 70px;
+}
+
+#full-fade {
+	background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#time {
+	color: white;
+	font-size: 14px;
+	line-height: 70px;
+}
+
+.temp-menu {
+	list-style: none;
+}
+	.temp-menu li {
+		/*float: left;*/
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+		.temp-menu li > a {
+			font-size: 16px;
+			color: purple;
+		}
+
+			.temp-menu li > a:hover {
+				color: crimson;
+			}
+
+.top-button {
+	display: none;
+    position: fixed;
+	right: 60px;
+	bottom: 60px;
+	z-index: 85;
+	cursor: pointer;
+	/*transition: opacity ease 0.2s;*/
+	background-color: transparent;
+}
+	.top-button a {
+			color: white;
+
+	}
+
+#scroll-logo {
+	position: relative;
+}
+
+/* MEDIA QUERIES */
+
+@media ( min-width: 768px ) {
+	#time {
+		font-size: 20px;
+	}
+	section.update {
+		width: 600px;
+		margin: 100px auto 30px;
+	}
+	main {
+		min-height: 500px;
+	}
+}
