@@ -1,5 +1,5 @@
 # smallcolin.com
 
-A single page website with links to all my other websites/projects
+A single page (PHP) website with links to all my other websites/projects
 
 
