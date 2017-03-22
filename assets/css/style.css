@@ -1,8 +1,13 @@
 body {
-	background-color: beige;
+	background-color: white;
+	background: #8e9eab;
+	background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3);
+	background: linear-gradient(to left, #8e9eab , #eef2f3);
+	background: #F7971E;
+	background: -webkit-linear-gradient(to left, #F7971E , #FFD200);
+	background: linear-gradient(to left, #F7971E , #FFD200);
 	font-family: 'Poppins', sans-serif;
-	/*font-family: 'Indie Flower', cursive;*/
-	background-image: url("../img/moving_lights.jpg");
+	/*background-image: url(../img/rug.jpg);*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -11,47 +16,79 @@ body {
 }
 
 main {
-	min-height: 430px;
+	/*min-height: 430px;*/
 }
+
+#wrap {
+	height: 100%;
+}
+
+#header {
+	height: 70px;
+	border-bottom: 1px solid black;
+}
+	#header a {
+			color: crimson;
+			text-align: center;
+			line-height: 70px;
+			text-transform: lowercase;
+		}
+			#header a:hover {
+				color: red;
+				text-decoration: none;
+
+		}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-top: 1px solid white;
+	position:absolute;
+  	bottom:0;
+  	width: 100%;
+	height: 70px;
+	line-height: 70px;
+}
+
+
+/* GENERAL STYLES */
 
 .aligncenter {
 	text-align: center; 
 }
 
-header {
-	height: 70px;
-}
-	header a {
-			color: orange;
-			text-align: center;
-			line-height: 70px;
-		}
-			header a:hover {
-				color: crimson;
 
-		}
+/* SECTIONS */
 
-section.update {
-    background-color: rgba(255,255,255,0.8);
+section.websites,
+section.music,
+section.contact {
     color: black;
-    box-shadow: 0px 1px 8px black;
     text-align: center;
-    width: 290px;
-    padding: 40px 0;
-    border-radius: 7px;
-    margin: 0 auto 20px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
 }
+	section.websites h3,
+	section.music h3,
+	section.contact {
+		text-transform: lowercase;
+	}
+		section.websites a,
+		section.music a {
+			color: brown;
+			text-decoration: none;
+		}
+			section.websites a:hover,
+			section.music a:hover {
+				color: red;
+			}
 
 
 
-footer {
-	text-align: center;
-	background-color: black;
-	color: white;
-	border-top: 1px solid white;
-	height: 70px;
-	line-height: 70px;
-}
+/* EXTRA STYLES */
+
 
 #full-fade {
 	background-color: rgba(255, 255, 255, 0.2);
@@ -63,29 +100,41 @@ footer {
     width: 100%;
 }
 
-#time {
-	color: white;
-	font-size: 14px;
-	line-height: 70px;
-}
-
 .temp-menu {
 	list-style: none;
 }
 	.temp-menu li {
-		/*float: left;*/
 		display: inline-block;
 		margin-right: 10px;
 	}
 
 		.temp-menu li > a {
 			font-size: 16px;
-			color: purple;
+			color: darkgrey;
 		}
 
 			.temp-menu li > a:hover {
 				color: crimson;
+				text-decoration: none;
 			}
+
+.fa {
+	margin-right: 4px;
+}
+
+.animated.flipInX {
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: 1; 
+}
+
+.animated.bounceIn {
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: 1; 
+}
+
+/* JS/JQUERY STYLES */
 
 .top-button {
 	display: none;
@@ -94,11 +143,10 @@ footer {
 	bottom: 60px;
 	z-index: 85;
 	cursor: pointer;
-	/*transition: opacity ease 0.2s;*/
 	background-color: transparent;
 }
 	.top-button a {
-			color: white;
+			color: crimson;
 
 	}
 
@@ -109,14 +157,20 @@ footer {
 /* MEDIA QUERIES */
 
 @media ( min-width: 768px ) {
-	#time {
-		font-size: 20px;
-	}
-	section.update {
-		width: 600px;
-		margin: 100px auto 30px;
-	}
+	
 	main {
 		min-height: 500px;
 	}
+
+	section.websites, 
+	section.music,
+	section.contact {
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.fa {
+		margin-right: 14px;
+	}
 }
+
