@@ -25,18 +25,6 @@
 		}, 1200);
 	});
 
-//----------------------------------------------//
-//-----	 		Image Transitions		  ------//
-//----------------------------------------------//
-
-	$("#image-link").mouseover(function() {
-		$(this).addClass("img-fade");
-	});
-
-	$("#image-link").mouseleave(function() {
-		$(this).removeClass("img-fade");
-	});
-
 
 })(jQuery);
 
@@ -46,5 +34,7 @@
 //----------------------------------------------//
 
 
-
+// $("#hide").click(function(){
+//     $("p").hide();
+// });
 

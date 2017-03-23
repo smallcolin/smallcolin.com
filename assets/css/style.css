@@ -64,13 +64,12 @@ main {
 /* IMAGES */
 
 img.capture {
+	position: relative;
+	background-color: white;
 	width: 300px;
 	height: 200px;
+	padding: 2px;
 }
-	img-fade {
-		background-color: black;
-		z-index: 5435254;
-	}
 
 
 /* SECTIONS */
