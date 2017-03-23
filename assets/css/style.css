@@ -61,17 +61,27 @@ main {
 	text-align: center; 
 }
 
+/* IMAGES */
+
+img.capture {
+	width: 300px;
+	height: 200px;
+}
+	img-fade {
+		background-color: black;
+		z-index: 5435254;
+	}
+
 
 /* SECTIONS */
 
 section.websites,
-section.music,
-section.contact {
+section.music {
 	display: block;
     color: black;
     text-align: center;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0 0;
     margin: 0 auto;
 }
 	section.websites h3,
@@ -90,6 +100,11 @@ section.contact {
 			}
 
 section.contact {
+	display: block;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
 	margin-bottom: 70px;
 }
 
@@ -147,8 +162,8 @@ section.contact {
 .top-button {
 	display: none;
     position: fixed;
-	right: 60px;
-	bottom: 60px;
+	right: 10px;
+	bottom: 15px;
 	z-index: 85;
 	cursor: pointer;
 	background-color: transparent;
@@ -174,15 +189,18 @@ section.contact {
 		min-height: 500px;
 	}
 
-	section.websites, 
-	section.music,
-	section.contact {
+	section.websites {
 		width: 100%;
 		margin: 20px auto;
 	}
 
 	.fa {
 		margin-right: 14px;
+	}
+
+	.top-button {
+		right: 20px;
+		bottom: 10px;
 	}
 }
 
