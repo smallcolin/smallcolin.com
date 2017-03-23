@@ -1,7 +1,7 @@
 
 			</main>
 
-		<footer>
+		<footer id="footer">
 			<p>&copy; Colin Sweeney 2016-<?php echo date('y'); ?></p>
 		</footer>
 	</div>  <!-- wrap -->

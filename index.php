@@ -5,13 +5,13 @@
 			<div class="col-xs-12 col-sm-6">
 				<section class="websites">
 					<h3 class="animated flipInX"><a href="http://smallcolinphotos.se/" target="_blank">smallcolinphotos.se</a></h3>
-					<p>A wordpress based website</p>
+					<p>A wordpress based photgraphy website</p>
 				</section>
 			</div>
 			<div class="col-xs-12 col-sm-6">
 				<section class="websites">
 					<h3 class="animated flipInX"><a href="http://smallcolin.se/" target="_blank">smallcolin.se</a></h3>
-					<p>A simple HTML/CSS website</p>
+					<p>A simple HTML/CSS/JQuery music website</p>
 				</section>
 			</div>
 		</div>
