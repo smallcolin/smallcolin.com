@@ -124,10 +124,11 @@ section.contact {
 
 .temp-menu {
 	list-style: none;
+	padding-left: 0;
 }
 	.temp-menu li {
 		display: inline-block;
-		margin-right: 10px;
+		margin-right: 0;
 	}
 
 		.temp-menu li > a {
@@ -191,6 +192,14 @@ section.contact {
 	section.websites {
 		width: 100%;
 		margin: 20px auto;
+	}
+
+	.temp-menu {
+		padding-left: 40px;
+	}
+
+	.temp-menu li {
+		margin-right: 10px;
 	}
 
 	.fa {

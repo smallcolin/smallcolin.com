@@ -9,6 +9,7 @@
 					<li class="pulse"><a href="https://www.instagram.com/smallcolin/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
 					<li class="pulse"><a href="https://twitter.com/smallcolin" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
 					<li class="pulse"><a href="https://github.com/smallcolin" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+					<li class="pulse"><a href="https://www.linkedin.com/in/smallcolin/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
 					<li class="pulse"><a href="mailto:colinsweeney2000@gmail.com?subject=Hello" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
 				</ul>
 			</section>
