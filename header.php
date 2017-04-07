@@ -8,8 +8,10 @@
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 	<script src="assets/js/jquery-3.1.0.js"></script>
+	<script src="assets/js/owl.carousel.js"></script>
 </head>
 <body>
 	<div id="full-fade"></div>

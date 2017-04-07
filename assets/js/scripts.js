@@ -25,6 +25,22 @@
 		}, 1200);
 	});
 
+//----------------------------------------------//
+//-----			   OWL CAROUSEL		      ------//
+//----------------------------------------------//
+
+
+	$(document).ready(function(){
+		$(".owl-carousel").owlCarousel( {
+			autoplay: true,
+			autoplayTimeout: 4000,
+			animateOut: 'fadeOut',
+			loop: true,
+			center: true,
+			items: 1
+		});
+	});
+
 
 })(jQuery);
 
