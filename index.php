@@ -11,9 +11,15 @@
 						<li><a href="mailto:smallcolin@smallcolin.se?subject=Hello">Email</a></li>
 					</ul>
 				</section>
+
+				<section class="aligncenter">
+					<button type="button" class="btn btn-primary" onclick="maps()">Where are you?	</button>
+					<p id="demo" style="background-color: red; color: white;"></p>
+				</section>
 				
 			</div>
 		</div>
 	</div>
+	
 
 <?php include "footer.php" ?>

@@ -69,4 +69,16 @@ function printTime() {
 
 
 
+function maps() {
+	navigator.geolocation.getCurrentPosition(showPosition);
+}
+	var x = document.getElementById("demo");
+
+function showPosition(position) {
+
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude; 
+}
+
+
 

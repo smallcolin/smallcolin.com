@@ -1,8 +1,9 @@
 body {
-	background-color: beige;
+	/*background-color: beige;*/
+	background-color: white;
 	font-family: 'Poppins', sans-serif;
 	/*font-family: 'Indie Flower', cursive;*/
-	background-image: url("../img/moving_lights.jpg");
+	/*background-image: url("../img/moving_lights.jpg");*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -34,7 +35,6 @@ header {
 section.update {
     background-color: rgba(255,255,255,0.8);
     color: black;
-    box-shadow: 0px 1px 8px black;
     text-align: center;
     width: 290px;
     padding: 40px 0;
