@@ -191,7 +191,34 @@ section.slideshow {
 		height: 300px;
 	} 
 
+section.puffar {
+	display: block;
+	width: 100%;
+	min-height:200px;
+}
+	section.puffar p {
+		line-height: 200px;
+	}
 
+section.puffar-icon {
+	display: block;
+	width: 100%;
+	min-height:200px;
+}
+	section.puffar-icon p,
+	.fa-camera {
+		line-height: 200px;
+	}
+
+.crimson {
+	background-color:crimson;
+	color: white;
+}
+
+.white {
+	background-color: white;
+	color: black;
+}
 
 /* EXTRA STYLES */
 
