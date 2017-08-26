@@ -18,9 +18,9 @@
 					<p>Send me a mail directly…</p>
 					<form class="contact-form" action="index.php" method="post">
 						<label for="name">Name</label><br/>
-						<input type="text" name="name" value="Name"><br />
+						<input type="text" name="name" value=""><br />
 						<label for="email">Email</label><br/>
-						<input class="<?=$emailError;?>" type="text" name="email" value="Email"><br />
+						<input class="<?=$emailError;?>" type="text" name="email" value=""><br />
 						<label for="name">Message</label><br/>
 						<textarea name="textarea" rows="8" cols="40"></textarea><br />
 						<input class="btn send-button" type="submit" name="submit" value="Send">

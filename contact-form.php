@@ -20,7 +20,7 @@
   $message .= 'Email: ' . $postedData['email'] . "\r\n\r\n";
   $message .= 'Commments: ' . $postedData['textarea'];
 
-  $success = mail($to, $subject, $message, $headers);
+  $success = mail($to, $subject, $message);
 
 ?>
 
