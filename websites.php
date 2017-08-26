@@ -1,8 +1,7 @@
 <div class="container">
-
 	<div class="row">
 		<div class="col-xs-12 col-sm-6">
-			<section class="websites">
+			<section id="projects" class="websites">
 				<h3 class="animated flipInX"><a href="http://smallcolinphotos.se/" target="_blank">smallcolinphotos.se</a></h3>
 				<p>A wordpress based photography website</p>
 				<div class="box">
@@ -50,17 +49,6 @@
 					</div>
 					<div class="image-overlay"></div>
 				</div>
-			</section>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<section class="music">
-				<h3 class="animated flipInX">Music</h3>
-				<p>Listen to my music…</p>
-				<ul class="temp-menu">
-					<li><a href="https://smallcolin.bandcamp.com/music" target="_blank"><i class="fa fa-play fa-2x" aria-hidden="true"></i></a></li>
-				</ul>
 			</section>
 		</div>
 	</div>

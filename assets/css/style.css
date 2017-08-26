@@ -7,7 +7,6 @@ body {
 	background: -webkit-linear-gradient(to left, #F7971E , #FFD200);
 	background: linear-gradient(to left, #F7971E , #FFD200);
 	font-family: 'Poppins', sans-serif;
-	/*background-image: url(../img/rug.jpg);*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -24,13 +23,13 @@ main {
 }
 
 #header {
-	height: 70px;
-	border-bottom: 1px solid black;
+	height: 100px;
+	/*border-bottom: 1px solid black;*/
 }
 	#header a {
 			color: crimson;
 			text-align: center;
-			line-height: 70px;
+			line-height: 50px;
 			text-transform: lowercase;
 		}
 			#header a:hover {
@@ -41,6 +40,18 @@ main {
 			#header h1 {
 				font-size: 30px;
 			}
+				#header .fullmenu {
+					height: 50px;
+					line-height: 50px;
+					list-style: none;
+					text-align: center;
+					border-bottom: 1px solid black;
+					padding: 0;
+				}
+					#header .fullmenu li {
+						display: inline-block;
+						padding: 0 10px;
+					}
 
 #footer {
 	background-color: black;
@@ -58,7 +69,7 @@ main {
 /* GENERAL STYLES */
 
 .aligncenter {
-	text-align: center; 
+	text-align: center;
 }
 
 .white-text {
@@ -99,7 +110,7 @@ main {
 				.box .post-info h4:hover {
 					/*border-bottom: solid 2px white;*/
 				}
-	
+
 	.box .image-overlay {
 		position: absolute;
 		left: 0;
@@ -138,9 +149,9 @@ main {
 		width: 100%;
 		height: 100%;
 		padding: 2px;
-	  	-moz-transition: all 0.3s;
-	  	-webkit-transition: all 0.3s;
-	  	transition: all ease-in-out 1s;
+  	-moz-transition: all 0.3s;
+  	-webkit-transition: all 0.3s;
+  	transition: all ease-in-out 1s;
 	}
 
 
@@ -149,18 +160,24 @@ main {
 /* SECTIONS */
 
 section.websites,
-section.music {
+section.music,
+section.about,
+section.contact-form {
 	display: block;
-    color: black;
-    text-align: center;
-    width: 100%;
-    padding: 20px 0 0;
-    margin: 0 auto;
+  color: black;
+  text-align: center;
+	min-height: 400px;
+  width: 100%;
+  padding: 20px 0 0;
+  margin: 0 auto 30px;
 }
 	section.websites h3,
 	section.music h3,
-	section.contact {
+	section.about h3,
+	section.contact h3,
+	section.contact-form h4 {
 		text-transform: lowercase;
+		margin-bottom: 30px;
 	}
 		section.websites a,
 		section.music a {
@@ -171,17 +188,42 @@ section.music {
 			section.music a:hover {
 				color: red;
 			}
+/*
+section.about {
+	height: 400px;
+}*/
 
 section.contact {
 	display: block;
-    color: black;
-    text-align: center;
-    width: 100%;
-    padding: 20px 0;
-	margin-bottom: 70px;
+  color: black;
+  text-align: center;
+  width: 100%;
+	min-height: 300px;
+  padding: 20px 10%;
+	margin-bottom: 130px;
 }
+	section.contact p {
+		margin-bottom: 30px;
+	}
+		section.contact label {
+			margin: 10px 0;
+		}
 
-
+section.contact .send-button,
+section.contact-form .back-button {
+	background-color: black;
+	color: white;
+	text-transform: lowercase;
+	border-radius: 44px;
+	width: 200px;
+	margin-top: 20px;
+}
+	section.contact .send-button:hover,
+	section.contact-form .back-button:hover {
+		background-color: transparent;
+		color: black;
+		border: 2px solid black;
+	}
 
 /* EXTRA STYLES */
 
@@ -222,13 +264,13 @@ section.contact {
 .animated.flipInX {
 	-webkit-animation-duration: 6s;
 	-webkit-animation-delay: 1s;
-	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-iteration-count: 1;
 }
 
 .animated.bounceIn {
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 1s;
-	-webkit-animation-iteration-count: 1; 
+	-webkit-animation-iteration-count: 1;
 }
 
 /* JS/JQUERY STYLES */
@@ -251,13 +293,24 @@ section.contact {
 	position: relative;
 }
 
+/* FORM STYLES */
+
+input.validation {
+	background-color: red;
+	border: 1px solid white;
+}
+
+
 /* MEDIA QUERIES */
 
 @media ( min-width: 768px ) {
-	
+
 	#header h1 {
 		font-size: 36px;
 	}
+		#header .fullmenu li {
+			padding: 0 20px;
+		}
 
 	main {
 		min-height: 500px;
@@ -289,6 +342,3 @@ section.contact {
 		min-height: 300px;
 	}
 }
-
-
-
