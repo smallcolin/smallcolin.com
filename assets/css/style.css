@@ -78,7 +78,8 @@ main {
 
 /* IMAGES */
 
-.box {
+.box,
+.album {
 	display:inline-block;
 	position:relative;
 	width: 100%;
@@ -86,7 +87,11 @@ main {
 	padding: 0;
 	overflow: hidden;
 }
-	.box .post-info {
+.album {
+	width: 60%;
+}
+	.box .post-info,
+	.album .post-info {
 		left:50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
@@ -99,19 +104,23 @@ main {
 		-moz-transition: opacity 0.4s ease-in-out 0s;
 		-ms-transition: opacity 0.4s ease-in-out 0s;
 	}
-		.box .post-info a {
+		.box .post-info a,
+		.album .post-info a {
 			color: white;
 			text-decoration: none;
 		}
-			.box .post-info h4 {
+			.box .post-info h4,
+			.album .post-info h4 {
 				border-bottom: solid 2px transparent;
 				transition: all 0.4s ease-in-out 0s;
 			}
-				.box .post-info h4:hover {
+				.box .post-info h4:hover,
+				.album .post-info h4:hover {
 					/*border-bottom: solid 2px white;*/
 				}
 
-	.box .image-overlay {
+	.box .image-overlay,
+	.album .image-overlay {
 		position: absolute;
 		left: 0;
 		top: 0;
@@ -126,20 +135,24 @@ main {
 		-ms-transition: opacity 0.4s ease-in-out 0s;
 	}
 
-	.box:hover .post-info {
+	.box:hover .post-info,
+	.album:hover .post-info {
 		opacity: 1;
 	}
-		.box:hover .image-overlay {
+		.box:hover .image-overlay,
+		.album:hover .image-overlay {
 			opacity: 0.4;
 		}
-			.box:hover img {
+			.box:hover img,
+			.album:hover img {
 				position: absolute;
 				-moz-transform: translate(-50%, 0) scale(1.1);
 				-webkit-transform: translate(-50%, 0) scale(1.1);
 				transform: translate(-50%, 0) scale(1.1);
 			}
 
-	.box img {
+	.box img,
+	.album img {
 		display: block;
 		position: absolute;
 		left:50%;
@@ -177,7 +190,7 @@ section.contact-form {
 	section.contact h3,
 	section.contact-form h4 {
 		text-transform: lowercase;
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 		section.websites a,
 		section.music a {
@@ -188,10 +201,27 @@ section.contact-form {
 			section.music a:hover {
 				color: red;
 			}
-/*
-section.about {
-	height: 400px;
-}*/
+
+section.websites .site-container {
+	margin-bottom: 20px;
+}
+
+section.about .about-text {
+	padding: 0 10px;
+}
+	section.about p {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+		section.about img {
+			width: 50%;
+			height: auto;
+		}
+
+section.music h4,
+section.music .album {
+	margin-bottom: 20px;
+}
 
 section.contact {
 	display: block;
@@ -208,12 +238,18 @@ section.contact {
 		section.contact label {
 			margin: 10px 0;
 		}
+			section.contact .contact-form-container .form input,
+			section.contact .contact-form-container .form .message {
+				border: 1px solid red;
+				width: 100%;
+			}
 
 section.contact .send-button,
 section.contact-form .back-button {
 	background-color: black;
 	color: white;
 	text-transform: lowercase;
+	border: 1px solid black !important;
 	border-radius: 44px;
 	width: 200px;
 	margin-top: 20px;
@@ -228,23 +264,13 @@ section.contact-form .back-button {
 /* EXTRA STYLES */
 
 
-#full-fade {
-	background-color: rgba(255, 255, 255, 0.2);
-    display: block;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
 .temp-menu {
 	list-style: none;
 	padding-left: 0;
+	margin-bottom: 20px;
 }
 	.temp-menu li {
-		display: inline-block;
-		margin-right: 0;
+		margin-bottom: 20px;
 	}
 
 		.temp-menu li > a {
@@ -311,6 +337,9 @@ input.validation {
 		#header .fullmenu li {
 			padding: 0 20px;
 		}
+			#header .fullmenu li:hover {
+				color: darkgrey;
+			}
 
 	main {
 		min-height: 500px;
@@ -321,12 +350,12 @@ input.validation {
 		margin: 20px auto;
 	}
 
-	.temp-menu {
-		padding-left: 40px;
+	section.about .about-text {
+		padding: 0 20px;
 	}
 
 	.temp-menu li {
-		margin-right: 10px;
+		margin-bottom: 40px;
 	}
 
 	.fa {

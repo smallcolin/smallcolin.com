@@ -10,7 +10,6 @@
 			header("Location: contact-form.php");
 		} else {
 			$emailError = "validation";
-			// header("Location: index.php#contact");
 		}
 	}
 ?>
@@ -43,7 +42,7 @@
 				<div class="row">
 					<nav>
 						<ul class="fullmenu">
-							<a href="#"><li id="toProjects">projects</li></a>
+							<a href="#"><li id="toProjects">websites</li></a>
 							<a href="#"><li id="toAboutMe">about Me</li></a>
 							<a href="#"><li id="toMusic">music</li></a>
 							<a href="#"><li id="toContact">contact</li></a>
