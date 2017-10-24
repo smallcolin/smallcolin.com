@@ -19,10 +19,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Small Colin</title>
+	<title>In Progress…</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" /> -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
-	<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 	<script src="assets/js/jquery-3.1.0.js"></script>
