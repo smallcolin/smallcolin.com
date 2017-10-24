@@ -81,7 +81,7 @@
 							saefridarbraga.com
 						</a>
 					</h4>
-					<p>An icelandic fmaily tree (wordpress)</p>
+					<p>An icelandic family tree (wordpress)</p>
 					<div class="box">
 						<img src="assets/img/saefridarbraga.png" />
 						<div class="post-info">
