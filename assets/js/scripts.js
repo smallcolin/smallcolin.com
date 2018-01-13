@@ -57,6 +57,13 @@
 		}, 1200);
 	});
 
+  // Scroll To Photos
+  $("#toPhotos").click(function() {
+		$("html, body").animate({
+			scrollTop: $("#photos").offset().top
+		}, 1200);
+	});
+
 
 
 })(jQuery);

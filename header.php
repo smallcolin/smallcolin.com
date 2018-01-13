@@ -19,7 +19,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>In Progress…</title>
+	<title>Small Colin</title>
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" /> -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
@@ -45,6 +45,7 @@
 							<a href="#"><li id="toProjects">websites</li></a>
 							<a href="#"><li id="toAboutMe">about Me</li></a>
 							<a href="#"><li id="toMusic">music</li></a>
+							<a href="#"><li id="toPhotos">photos</li></a>
 							<a href="#"><li id="toContact">contact</li></a>
 						</ul>
 					</nav>
