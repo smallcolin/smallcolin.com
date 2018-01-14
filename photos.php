@@ -27,14 +27,13 @@
 				    $pic_created_time = date("F j, Y", $post['caption']['created_time']);
 				    $pic_created_time = date("M j, Y", strtotime($pic_created_time . " +1 days"));
 
-				    echo "<div class='col-md-3 col-sm-4 col-xs-6'>";
+				    echo "<div class='col-md-3 col-sm-4 col-xs-12 bilder-deets'>";
 			        echo "<a href='{$pic_link}' target='_blank'>";
 	            echo "<img class='img-responsive photo-thumb' src='{$pic_src}' alt='{$title}'>";
 			        echo "</a>";
 	            echo "<p>{$title}</p>";
 							echo "<p>{$pic_created_time}</p>";
 							echo "<p><i class='fa fa-heart'></i>{$likes}</p>";
-			        echo "</p>";
 				    echo "</div>";
 					}
 				?>

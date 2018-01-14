@@ -175,7 +175,8 @@ main {
 section.websites,
 section.music,
 section.about,
-section.contact-form {
+section.contact-form,
+section.photos {
 	display: block;
   color: black;
   text-align: center;
@@ -222,6 +223,17 @@ section.music h4,
 section.music .album {
 	margin-bottom: 20px;
 }
+
+section.photos h4 {
+	margin-bottom: 20px;
+}
+	section.photos img {
+		max-width: 70%;
+		margin: 0 auto 10px;
+	}
+		section.photos .bilder-deets p:last-of-type {
+			margin-bottom: 20px;
+		}
 
 section.contact {
 	display: block;
