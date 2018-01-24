@@ -40,18 +40,38 @@
 					</div>
 				</div>
 				<div class="row">
-					<nav>
-						<ul class="fullmenu">
-							<a href="#"><li id="toProjects">websites</li></a>
-							<a href="#"><li id="toAboutMe">about Me</li></a>
-							<a href="#"><li id="toMusic">music</li></a>
-							<a href="#"><li id="toPhotos">photos</li></a>
-							<a href="#"><li id="toContact">contact</li></a>
-						</ul>
-					</nav>
+					<!-- screen menu -->
+					<div class="col-xs-12 hidden-xs">
+						<nav>
+							<ul class="fullmenu">
+								<a href="#"><li id="toProjects">websites</li></a>
+								<a href="#"><li id="toAboutMe">about Me</li></a>
+								<a href="#"><li id="toMusic">music</li></a>
+								<a href="#"><li id="toPhotos">photos</li></a>
+								<a href="#"><li id="toContact">contact</li></a>
+							</ul>
+						</nav>
+					</div>
+					<!-- Mobile Menu Button-->
+					<div class="col-xs-12 visible-xs aligncenter">
+						<div class="menu-icon">
+							<i class="fa fa-chevron-down" aria-hidden="true"></i>
+						</div>
+					</div>
 				</div>
 			</div>
+			<nav>
+				<ul class="mobilemenu">
+					<a href="#"><li id="toProjectsMobile">websites</li></a>
+					<a href="#"><li id="toAboutMeMobile">about Me</li></a>
+					<a href="#"><li id="toMusicMobile">music</li></a>
+					<a href="#"><li id="toPhotosMobile">photos</li></a>
+					<a href="#"><li id="toContactMobile">contact</li></a>
+				</ul>
+			</nav>
 		</header>
+
+		<div id="fade"></div>
 
 		<div>
 			<button class="top-button btn">
