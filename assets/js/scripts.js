@@ -73,13 +73,23 @@
 	 $(".mobilemenu").fadeToggle();
 	 $(".menu-icon").children().toggleClass("fa-chevron-down fa-chevron-up");
 	 $("#fade").fadeToggle();
+	 $("html, body").toggleClass("no-scroll");
  });
 
  // On menu item click
- $(".mobilemenu > a").click(function(){
+ $(".mobilemenu > li > a").click(function(){
 	 $(this).parents(".mobilemenu").fadeToggle("fast");
 	 $(".menu-icon").children().toggleClass("fa-chevron-down fa-chevron-up");
 	 $("#fade").hide();
+	 $("html, body").removeClass("no-scroll");
+ });
+
+ // Click on fade
+ $("#fade").click(function(){
+	 $(this).hide();
+	 $(".menu-icon").children().toggleClass("fa-chevron-down fa-chevron-up");
+	 $(".mobilemenu").fadeToggle();
+	 $("html, body").toggleClass("no-scroll");
  });
 
 

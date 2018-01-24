@@ -62,11 +62,11 @@
 			</div>
 			<nav>
 				<ul class="mobilemenu">
-					<a href="#"><li id="toProjectsMobile">websites</li></a>
-					<a href="#"><li id="toAboutMeMobile">about Me</li></a>
-					<a href="#"><li id="toMusicMobile">music</li></a>
-					<a href="#"><li id="toPhotosMobile">photos</li></a>
-					<a href="#"><li id="toContactMobile">contact</li></a>
+					<li id="toProjectsMobile"><a href="#">websites</a></li>
+					<li id="toAboutMeMobile"><a href="#">about Me</a></li>
+					<li id="toMusicMobile"><a href="#">music</a></li>
+					<li id="toPhotosMobile"><a href="#">photos</a></li>
+					<li id="toContactMobile"><a href="#">contact</a></li>
 				</ul>
 			</nav>
 		</header>
