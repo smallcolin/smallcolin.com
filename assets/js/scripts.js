@@ -65,5 +65,26 @@
 	});
 
 
+//----------------------------------------------//
+//-----						Mobile menu 				  	------//
+//----------------------------------------------//
+
+ $(".menu-icon").click(function(){
+	 $(".mobilemenu").fadeToggle();
+	 $(".menu-icon").children().toggleClass("fa-chevron-down fa-chevron-up");
+	 $("#fade").fadeToggle();
+ });
+
+ // On menu item click
+ $(".mobilemenu > a").click(function(){
+	 $(this).parents(".mobilemenu").fadeToggle("fast");
+	 $(".menu-icon").children().toggleClass("fa-chevron-down fa-chevron-up");
+	 $("#fade").hide();
+ });
+
+
+
+
+
 
 })(jQuery);
