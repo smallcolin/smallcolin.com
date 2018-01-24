@@ -30,35 +30,35 @@
 //----------------------------------------------//
 
 	// Scroll to projects
-	$("#toProjects").click(function() {
+	$("#toProjects, #toProjectsMobile").click(function() {
 		$("html, body").animate({
 			scrollTop: $("#projects").offset().top
 		}, 1200);
 	});
 
 	// Scroll to about me
-	$("#toAboutMe").click(function() {
+	$("#toAboutMe, #toAboutMeMobile").click(function() {
 		$("html, body").animate({
 			scrollTop: $("#aboutMe").offset().top
 		}, 2000);
 	});
 
 	// Scroll to music
-	$("#toMusic").click(function() {
+	$("#toMusic, #toMusicMobile").click(function() {
 		$("html, body").animate({
 			scrollTop: $("#music").offset().top
 		}, 1200);
 	});
 
 	// Scroll to contact
-	$("#toContact").click(function() {
+	$("#toContact, #toContactMobile").click(function() {
 		$("html, body").animate({
 			scrollTop: $("#contact").offset().top
 		}, 1200);
 	});
 
   // Scroll To Photos
-  $("#toPhotos").click(function() {
+  $("#toPhotos, #toPhotosMobile").click(function() {
 		$("html, body").animate({
 			scrollTop: $("#photos").offset().top
 		}, 1200);
