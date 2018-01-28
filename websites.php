@@ -6,16 +6,16 @@
 
 				<div class="site-container">
 					<h4 class="animated flipInX">
-						<a href="http://smallcolinphotos.se/" target="_blank">
-							smallcolinphotos.se
+						<a href="http://kappabar.se/" target="_blank">
+							kappabar.se
 						</a>
 					</h4>
-					<p>A wordpress based photography website</p>
+					<p>A wordpress site for a chain of restaurants</p>
 					<div class="box">
-						<img src="assets/img/smallcolinphotos_se.png" />
+						<img src="assets/img/kappabar.png" />
 						<div class="post-info">
 							<h4 class="post-title">
-								<a href="http://smallcolinphotos.se/" target="_blank">
+								<a href="http://kappabar.se/" target="_blank">
 									<span class="white-text">Go…</span> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 								</a>
 							</h4>
