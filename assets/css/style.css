@@ -1,11 +1,11 @@
 body {
 	background-color: white;
-	background: #8e9eab;
+	/* background: #8e9eab;
 	background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3);
 	background: linear-gradient(to left, #8e9eab , #eef2f3);
 	background: #F7971E;
 	background: -webkit-linear-gradient(to left, #F7971E , #FFD200);
-	background: linear-gradient(to left, #F7971E , #FFD200);
+	background: linear-gradient(to left, #F7971E , #FFD200); */
 	font-family: 'Poppins', sans-serif;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -263,13 +263,21 @@ section.music .album {
 section.photos h4 {
 	margin-bottom: 20px;
 }
-	section.photos img {
-		max-width: 70%;
-		margin: 0 auto 10px;
+	section.photos .insta-box {
+		display: flex;
+		flex-wrap:wrap;
+		justify-content: space-between;
 	}
-		section.photos .bilder-deets p:last-of-type {
-			margin-bottom: 20px;
+		section.photos img {
+			max-width: 90%;
+			margin: 0 auto 10px;
 		}
+			section.photos .insta-box .bilder-deets {
+				width: 50%;
+			}
+			/* section.photos .bilder-deets p:last-of-type {
+				margin-bottom: 20px;
+			} */	
 
 section.contact {
 	display: block;
@@ -377,6 +385,12 @@ input.validation {
 
 /* MEDIA QUERIES */
 
+@media ( min-width: 480px ) {
+	section.photos .insta-box .bilder-deets {
+		width: 25%;
+	}
+}
+
 @media ( min-width: 768px ) {
 
 	#header h1 {
@@ -417,5 +431,11 @@ input.validation {
 
 	.box {
 		min-height: 300px;
+	}
+}
+
+@media ( min-width: 900px ) {
+	section.photos .insta-box .bilder-deets {
+		width: 12.5%;
 	}
 }

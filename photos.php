@@ -22,6 +22,8 @@
 					if ($json == false) {
 						echo '*To access the instagram feed you will need to connect to the internet*';
 					} else {
+						echo '<div class="insta-box">';
+
 						foreach ($obj['data'] as $post) {
 							$title = $post['caption']['text'];
 							$pic_link = $post['link'];
@@ -30,8 +32,7 @@
 							$pic_created_time = date("F j, Y", $post['caption']['created_time']);
 							$pic_created_time = date("M j, Y", strtotime($pic_created_time . " +1 days"));
 
-							echo "<div class='col-md-3 col-sm-4 col-xs-12 bilder-deets'>";
-							echo "<a href='{$pic_link}' target='_blank'>";
+							echo '<div class="bilder-deets">';
 							echo "<img class='img-responsive photo-thumb' src='{$pic_src}' alt='{$title}'>";
 							echo "</a>";
 							echo "<p>{$title}</p>";
@@ -39,6 +40,7 @@
 							echo "<p><i class='fa fa-heart'></i>{$likes}</p>";
 							echo "</div>";
 						}
+						echo '</div>';
 					}
 				?>
 			</div>
