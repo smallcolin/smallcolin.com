@@ -4,7 +4,7 @@
 
 	<?php include "about.php" ?>
 
-	<?php include "music.php" ?>
+	<?php //include "music.php" ?>
 
 	<?php include "photos.php" ?>
 
