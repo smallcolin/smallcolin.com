@@ -269,7 +269,7 @@ section.photos h4 {
 		justify-content: space-between;
 	}
 		section.photos img {
-			max-width: 90%;
+			max-width: 95%;
 			margin: 0 auto 10px;
 		}
 			section.photos .insta-box .bilder-deets {
