@@ -6,6 +6,8 @@
 
 	<?php //include "music.php" ?>
 
+	<?php include "music2.php" ?>
+
 	<?php include "photos.php" ?>
 
 	<?php include "contact.php" ?>

@@ -25,6 +25,7 @@
 	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="assets/css/music-style.css" rel="stylesheet" type="text/css" />
 	<script src="assets/js/jquery-3.1.0.js"></script>
 </head>
 <body>
