@@ -93,8 +93,17 @@
  });
 
 
+ //----------------------------------------------//
+ //-----						Extras 				 		     ------//
+ //----------------------------------------------//
 
-
+	$(".site-container").hover(function() {
+		$(this).children(".move-text").css('transform', 'translateY(0)');
+		$(this).children(".move-text").css('transition', 'transform 1s');
+	}, function() {
+		$(this).children(".move-text").css('transform', 'translateY(30px)');
+		$(this).children(".move-text").css('transition', 'transform 1s');
+	});
 
 
 })(jQuery);

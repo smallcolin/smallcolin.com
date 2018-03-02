@@ -10,7 +10,7 @@
 							kappabar.se
 						</a>
 					</h4>
-					<p>A wordpress site for a chain of restaurants</p>
+					<p class="move-text">A wordpress site for a chain of restaurants</p>
 					<div class="box">
 						<img src="assets/img/kappabar.png" />
 						<div class="post-info">
@@ -33,7 +33,7 @@
 							smallcolin.se
 						</a>
 					</h4>
-					<p>A simple HTML/CSS/JQuery music website</p>
+					<p class="move-text">A simple HTML/CSS/JQuery music website</p>
 					<div class="box">
 						<img src="assets/img/smallcolin_se.png" />
 						<div class="post-info">
@@ -58,7 +58,7 @@
 							bittrabritta.se
 						</a>
 					</h4>
-					<p>A wordpress based website about furnishings</p>
+					<p class="move-text">A wordpress based website about furnishings</p>
 					<div class="box">
 						<img src="assets/img/bittra.png" />
 						<div class="post-info">
@@ -81,7 +81,7 @@
 							saefridarbraga.com
 						</a>
 					</h4>
-					<p>An icelandic family tree (wordpress)</p>
+					<p class="move-text">An icelandic family tree (wordpress)</p>
 					<div class="box">
 						<img src="assets/img/saefridarbraga.png" />
 						<div class="post-info">

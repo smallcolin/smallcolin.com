@@ -95,6 +95,11 @@ main {
 
 /* IMAGES */
 
+.move-text {
+	transform: translateY(30px);
+	transition: transform 1s;
+}
+
 .box,
 .album {
 	display:inline-block;
@@ -236,6 +241,7 @@ section.photos {
 
 section.websites .site-container {
 	margin-bottom: 20px;
+	position: relative;
 }
 
 section.about .about-text {
