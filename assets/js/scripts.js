@@ -99,10 +99,14 @@
 
 	$(".site-container").hover(function() {
 		$(this).children(".move-text").css('transform', 'translateY(0)');
-		$(this).children(".move-text").css('transition', 'transform 1s');
+		$(this).children(".move-text").css('transition', 'transform .5s');
+		$(this).children(".box").css('opacity', 0.6);
+		$(this).children(".box").css('transition', 'opacity .5s');
 	}, function() {
 		$(this).children(".move-text").css('transform', 'translateY(30px)');
-		$(this).children(".move-text").css('transition', 'transform 1s');
+		$(this).children(".move-text").css('transition', 'transform .5s');
+		$(this).children(".box").css('opacity', 1);
+		$(this).children(".box").css('transition', 'opacity .5s');
 	});
 
 

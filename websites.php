@@ -10,17 +10,11 @@
 							kappabar.se
 						</a>
 					</h4>
-					<p class="move-text">A wordpress site for a chain of restaurants</p>
+					<p class="move-text">Wordpress | ACF | jQuery</p>
 					<div class="box">
-						<img src="assets/img/kappabar.png" />
-						<div class="post-info">
-							<h4 class="post-title">
-								<a href="http://kappabar.se/" target="_blank">
-									<span class="white-text">Go…</span> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div class="image-overlay"></div>
+						<a href="http://kappabar.se/" target="_blank">
+							<img src="assets/img/kappabar.png" />
+						</a>
 					</div>
 				</div>
 
@@ -33,20 +27,13 @@
 							smallcolin.se
 						</a>
 					</h4>
-					<p class="move-text">A simple HTML/CSS/JQuery music website</p>
+					<p class="move-text">HTML / CSS / JQuery</p>
 					<div class="box">
-						<img src="assets/img/smallcolin_se.png" />
-						<div class="post-info">
-							<h4 class="post-title">
-								<a href="http://smallcolin.se/" target="_blank">
-									<span class="white-text">Go…</span> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div class="image-overlay"></div>
+						<a href="http://smallcolin.se/" target="_blank">
+							<img src="assets/img/smallcolin_se.png" />
+						</a>
 					</div>
 				</div>
-
 			</div>
 		</div>
 		<div class="row">
@@ -60,15 +47,9 @@
 					</h4>
 					<p class="move-text">A wordpress based website about furnishings</p>
 					<div class="box">
-						<img src="assets/img/bittra.png" />
-						<div class="post-info">
-							<h4 class="post-title">
-								<a href="http://saefridarbraga.com" target="_blank">
-									<span class="white-text">Go…</span> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div class="image-overlay"></div>
+						<a href="http://saefridarbraga.com" target="_blank">
+							<img src="assets/img/bittra.png" />
+						</a>
 					</div>
 				</div>
 
@@ -83,15 +64,9 @@
 					</h4>
 					<p class="move-text">An icelandic family tree (wordpress)</p>
 					<div class="box">
-						<img src="assets/img/saefridarbraga.png" />
-						<div class="post-info">
-							<h4 class="post-title">
-								<a href="http://saefridarbraga.com" target="_blank">
-									<span class="white-text">Go…</span> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-								</a>
-							</h4>
-						</div>
-						<div class="image-overlay"></div>
+						<a href="http://saefridarbraga.com" target="_blank">
+							<img src="assets/img/saefridarbraga.png" />
+						</a>
 					</div>
 				</div>
 
