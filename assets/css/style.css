@@ -241,7 +241,12 @@ section.websites .work {
 		position: relative;
 		cursor: pointer;
 		width: 100%;
+		margin-bottom: 20px;
 	}
+	  section.websites .work .site-container img {
+			border-bottom: 1px solid black;
+			width: 90%;
+		}
 
 section.about .about-text {
 	padding: 0 10px;

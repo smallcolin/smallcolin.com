@@ -1,7 +1,7 @@
 <section id="projects" class="websites">
 	<div class="container">
 		<div class="row">
-			<h3 class="animated flipInX">Websites</h3>
+			<h3 class="animated flipInX">Projects</h3>
 				<div class="work">
 					<div class="site-container">
 						<h4 class="animated flipInX">
@@ -31,13 +31,13 @@
 					</div>
 					<div class="site-container">
 						<h4 class="animated flipInX">
-							<a href="http://bittrabritta.se" target="_blank">
+							<a href="https://bittrabritta.se" target="_blank">
 								bittrabritta.se
 							</a>
 						</h4>
 						<p class="move-text">Wordpress | ACF | jQuery</p>
 						<div class="box">
-							<a href="http://saefridarbraga.com" target="_blank">
+							<a href="https://bittrabritta.se" target="_blank">
 								<img src="assets/img/bittrabritta.se.jpg" />
 							</a>
 						</div>
@@ -57,20 +57,20 @@
 					</div>
 					<div class="site-container">
 						<h4 class="animated flipInX">
-							<a href="http://bittrabritta.se" target="_blank">
-								beardlessbrewery.se
+							<a href="https://github.com/smallcolin/wine" target="_blank">
+								wine ecommerce
 							</a>
 						</h4>
-						<p class="move-text">PHP | jQuery </p>
+						<p class="move-text">Laravel | PHP </p>
 						<div class="box">
-							<a href="http://beardlessbrewery.se" target="_blank">
-								<img src="assets/img/beardlessbrewery.se.jpg" />
+							<a href="https://github.com/smallcolin/wine" target="_blank">
+								<img src="assets/img/wine-test.jpg" />
 							</a>
 						</div>
 					</div>
 					<div class="site-container">
 						<h4 class="animated flipInX">
-							<a href="http://saefridarbraga.com" target="_blank">
+							<a href="http://hanshugos.se/" target="_blank">
 								hanshugos.se
 							</a>
 						</h4>

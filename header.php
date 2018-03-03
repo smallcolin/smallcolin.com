@@ -45,7 +45,7 @@
 					<div class="col-xs-12 hidden-xs">
 						<nav>
 							<ul class="fullmenu">
-								<a href="#"><li id="toProjects">websites</li></a>
+								<a href="#"><li id="toProjects">projects</li></a>
 								<a href="#"><li id="toAboutMe">about Me</li></a>
 								<!-- <a href="#"><li id="toMusic" style="text-decoration: line-through;">music</li></a> -->
 								<a href="#"><li id="toPhotos">photos</li></a>
@@ -63,7 +63,7 @@
 			</div>
 			<nav>
 				<ul class="mobilemenu">
-					<li id="toProjectsMobile"><a href="#">websites</a></li>
+					<li id="toProjectsMobile"><a href="#">projects</a></li>
 					<li id="toAboutMeMobile"><a href="#">about Me</a></li>
 					<!-- <li id="toMusicMobile"><a href="#">music</a></li> -->
 					<li id="toPhotosMobile"><a href="#">photos</a></li>
