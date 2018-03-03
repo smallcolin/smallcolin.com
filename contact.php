@@ -7,15 +7,6 @@
 				<ul class="temp-menu">
 					<div class="row">
 						<div class="col-xs-4">
-							<li class="pulse"><a href="https://www.facebook.com/Small.Colin" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-						</div>
-						<div class="col-xs-4">
-							<li class="pulse"><a href="https://www.instagram.com/smallcolin/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-						</div>
-						<div class="col-xs-4">
-							<li class="pulse"><a href="https://twitter.com/smallcolin" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-						</div>
-						<div class="col-xs-4">
 							<li class="pulse"><a href="https://github.com/smallcolin" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
 						</div>
 						<div class="col-xs-4">
@@ -23,6 +14,15 @@
 						</div>
 						<div class="col-xs-4">
 							<li class="pulse"><a href="mailto:colinsweeney2000@gmail.com?subject=Hello" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+						</div>
+						<div class="col-xs-4">
+							<li class="pulse"><a href="https://www.facebook.com/Small.Colin" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+						</div>
+						<div class="col-xs-4">
+							<li class="pulse"><a href="https://www.instagram.com/smallcolin/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+						</div>
+						<div class="col-xs-4">
+							<li class="pulse"><a href="https://twitter.com/smallcolin" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
 						</div>
 					</div>
 				</ul>
