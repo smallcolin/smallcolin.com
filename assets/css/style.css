@@ -232,12 +232,16 @@ section.photos {
 				color: red;
 			}
 
-section.websites .site-container {
-	/* margin-bottom: 20px; */
-	background: b
-	position: relative;
-	cursor: pointer;
+section.websites .work {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
 }
+	section.websites .work .site-container {
+		position: relative;
+		cursor: pointer;
+		width: 100%;
+	}
 
 section.about .about-text {
 	padding: 0 10px;
@@ -387,6 +391,9 @@ input.validation {
 /* MEDIA QUERIES */
 
 @media ( min-width: 480px ) {
+	section.websites .work .site-container {
+		width: 50%;
+	}
 	section.photos .insta-box .bilder-deets {
 		width: 25%;
 	}
@@ -439,7 +446,16 @@ input.validation {
 }
 
 @media ( min-width: 900px ) {
+	/* section.websites .work .site-container {
+		width: 33%;
+	} */
 	section.photos .insta-box .bilder-deets {
 		width: 12.5%;
+	}
+}
+
+@media ( min-width: 1170px ) {
+	section.websites .work .site-container {
+		width: 33%;
 	}
 }
