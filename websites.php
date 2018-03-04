@@ -18,19 +18,6 @@
 					</div>
 					<div class="site-container">
 						<h4 class="animated flipInX">
-							<a href="http://smallcolin.se/" target="_blank">
-								smallcolin.se
-							</a>
-						</h4>
-						<p class="move-text">HTML / CSS / JQuery</p>
-						<div class="box">
-							<a href="http://smallcolin.se/" target="_blank">
-								<img src="assets/img/smallcolin.se_responsive.jpg" />
-							</a>
-						</div>
-					</div>
-					<div class="site-container">
-						<h4 class="animated flipInX">
 							<a href="https://bittrabritta.se" target="_blank">
 								bittrabritta.se
 							</a>
@@ -57,6 +44,19 @@
 					</div>
 					<div class="site-container">
 						<h4 class="animated flipInX">
+							<a href="http://hanshugos.se/" target="_blank">
+								hanshugos.se
+							</a>
+						</h4>
+						<p class="move-text">Wordpress | Woocommerce | jQuery | PHP</p>
+						<div class="box">
+							<a href="http://hanshugos.se/" target="_blank">
+								<img src="assets/img/hanshugos.se_responsive.jpg" />
+							</a>
+						</div>
+					</div>
+					<div class="site-container">
+						<h4 class="animated flipInX">
 							<a href="https://github.com/smallcolin/wine" target="_blank">
 								wine ecommerce
 							</a>
@@ -70,14 +70,14 @@
 					</div>
 					<div class="site-container">
 						<h4 class="animated flipInX">
-							<a href="http://hanshugos.se/" target="_blank">
-								hanshugos.se
+							<a href="http://smallcolin.se/" target="_blank">
+								smallcolin.se
 							</a>
 						</h4>
-						<p class="move-text">Wordpress | Woocommerce | jQuery | PHP</p>
+						<p class="move-text">HTML / CSS / JQuery</p>
 						<div class="box">
-							<a href="http://hanshugos.se/" target="_blank">
-								<img src="assets/img/hanshugos.se_responsive.jpg" />
+							<a href="http://smallcolin.se/" target="_blank">
+								<img src="assets/img/smallcolin.se_responsive.jpg" />
 							</a>
 						</div>
 					</div>

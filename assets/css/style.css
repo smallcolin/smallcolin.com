@@ -96,8 +96,9 @@ main {
 /* IMAGES */
 
 .move-text {
-	transform: translateY(30px);
+	transform: translateY(0);
 	transition: transform 1s;
+	font-size: 12px;
 }
 
 .box,
@@ -456,6 +457,11 @@ input.validation {
 	} */
 	section.photos .insta-box .bilder-deets {
 		width: 12.5%;
+	}
+
+	.move-text {
+		transform: translateY(30px);
+		font-size: 14px;
 	}
 }
 
