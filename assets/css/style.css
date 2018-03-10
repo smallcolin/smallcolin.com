@@ -256,10 +256,17 @@ section.about .about-text {
 		font-size: 18px;
 		margin-bottom: 20px;
 	}
-		section.about img {
-			width: 50%;
-			height: auto;
+		section.about .skills {
+			list-style: none;
+			margin-bottom: 20px;
 		}
+			section.about .skills li {
+
+			}
+				section.about img {
+					width: 50%;
+					height: auto;
+				}
 
 section.music h4,
 section.music .album {

@@ -5,11 +5,26 @@
 			<div class="col-xs-12 col-sm-6">
 				<div class="about-text">
 					<p>
-						I am a 38 year old who is currently studying Web Development with CMS leanings at IT Högskola in Gothenburg, Sweden.
+						I am a 38 year old who is currently nearing the end of a 2 year course studying Web Development with CMS leanings at IT Högskola in Gothenburg, Sweden.
 					</p>
 					<p>
-						So far I have experience with HTML, CSS, Javascript (Angular, jQuery, Polymer) and Wordpress based PHP. In my second year of school I will cover PHP/SQL in much greater depth and also courses on Drupal & Magento.
+						In a relatively short time I have gained good experience with the following skills:-
 					</p>
+						<ul class="skills">
+							<li>HTML/CSS</li>
+							<li>Javascript (Angular, jQuery)</li>
+							<li>PHP</li>
+							<li>Wordpress</li>
+						</ul>
+					<p>
+						I have also covered SQL:- 
+					</p>
+						<ul class="skills">
+							<li>Drupal</li>
+							<li>SQL</li>
+							<li>Node</li>
+							<li>Ecommerce (Woocommerce, Magento)</li>
+						</ul>
 					<p>
 						I very much like to write code and learn new techniques & methods within programming languages.
 						I also write and produce electronic music with computers.
