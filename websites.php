@@ -5,7 +5,11 @@
 		<div class="row">
 			<h3 class="animated flipInX">Projects</h3>
 				<div class="work">
-					<?php foreach ($wb_data['sites'] as $site) { ?>
+					<?php
+						// Shuffle the array to show different results everytime
+						shuffle($wb_data['sites']);
+						// Print it out
+						foreach ($wb_data['sites'] as $site) { ?>
 						<div class="site-container">
 							<h4 class="animated flipInX">
 								<a href="<?php echo $site['url']; ?>" target="_blank">
