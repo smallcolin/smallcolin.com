@@ -26,6 +26,8 @@
 						</div>
 					</div>
 				</ul>
+				<p>sign up for my newsletter…</p>
+				<?php include "mailchimp.php"; ?>
 			</div>
 			<div class="col-xs-12 col-sm-6">
 				<div class="contact-form-container">
