@@ -13,7 +13,7 @@
   // echo $postedData['name'] . ' ' . $postedData['email'] . ' ' . $postedData['textarea'] . '.';
 
   // Send a message to my email with all the form data
-  $to = 'smallcolin@smallcolin.se';
+  $to = 'small.colin@smallcolin.com';
   $subject = "Direct mail from smallcolin.com";
 
   $message = 'Name: ' . $postedData['name'] . "\r\n\r\n";
